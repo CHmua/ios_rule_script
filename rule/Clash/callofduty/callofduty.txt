@@ -1,0 +1,21 @@
+# NAME: Call of Duty
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-07-23 13:39:08
+# DOMAIN-SUFFIX: 11
+# TOTAL: 11
+DOMAIN-SUFFIX,callofduty.com
+DOMAIN-SUFFIX,codm.activision.com
+DOMAIN-SUFFIX,callofdutyleague.com
+DOMAIN-SUFFIX,servers.callofduty.com
+DOMAIN-SUFFIX,prod.versus.activision.com
+DOMAIN-SUFFIX,live.codmw.com
+DOMAIN-SUFFIX,game.codwz.com
+DOMAIN-SUFFIX,na.servers.callofduty.com
+DOMAIN-SUFFIX,eu.prod.codwz.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,edgesuite.net
+
+
+
+

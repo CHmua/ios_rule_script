@@ -15,6 +15,12 @@ DOMAIN-SUFFIX,na.servers.callofduty.com
 DOMAIN-SUFFIX,eu.prod.codwz.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,edgesuite.net
+DOMAIN-SUFFIX,ingest.datax.activision.com
+DOMAIN-SUFFIX,activision.com
+DOMAIN-SUFFIX,activity.windows.com
+DOMAIN-SUFFIX,genesis.stun.us.demonware.net
+DOMAIN-SUFFIX,support.activision.com
+
 
 
 

@@ -2,30 +2,8 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/CHmua/ios_rule_script
 # UPDATED: 2025-07-23 13:39:08
-# DOMAIN-SUFFIX: 19
-# TOTAL: 19
-DOMAIN-SUFFIX,callofduty.com
-DOMAIN-SUFFIX,codm.activision.com
-DOMAIN-SUFFIX,callofdutyleague.com
-DOMAIN-SUFFIX,servers.callofduty.com
-DOMAIN-SUFFIX,prod.versus.activision.com
-DOMAIN-SUFFIX,live.codmw.com
-DOMAIN-SUFFIX,game.codwz.com
-DOMAIN-SUFFIX,na.servers.callofduty.com
-DOMAIN-SUFFIX,eu.prod.codwz.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,edgesuite.net
-DOMAIN-SUFFIX,ingest.datax.activision.com
-DOMAIN-SUFFIX,activision.com
-DOMAIN-SUFFIX,activity.windows.com
-DOMAIN-SUFFIX,genesis.stun.us.demonware.net
-DOMAIN-SUFFIX,support.activision.com
-DOMAIN-SUFFIX,blizzard.com
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,akamaized.net
-
-
-
+# DOMAIN-SUFFIX: 17
+# TOTAL: 17
 DOMAIN-SUFFIX,callofduty.com
 DOMAIN-SUFFIX,cdn.callofduty.com
 DOMAIN-SUFFIX,profile.callofduty.com
@@ -38,36 +16,20 @@ DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,blz-contentstack.com
 DOMAIN-SUFFIX,cdn.blizzard.com
-DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,cod.tracker.gg
-DOMAIN-SUFFIX,codstats.net
-DOMAIN-SUFFIX,s2.prod.cloud.callofduty.com
-DOMAIN-SUFFIX,s3.prod.cloud.callofduty.com
 DOMAIN-SUFFIX,lobby.prod.cloud.callofduty.com
 DOMAIN-SUFFIX,lobby.live.cloud.callofduty.com
-DOMAIN-SUFFIX,tracker.gg
-DOMAIN-SUFFIX,prod.cloud.callofduty.com
+DOMAIN-SUFFIX,s2.prod.cloud.callofduty.com
+DOMAIN-SUFFIX,s3.prod.cloud.callofduty.com
 DOMAIN-SUFFIX,cloud.callofduty.com
-
-
-
-DOMAIN-SUFFIX,api.maclookup.app:443
-DOMAIN-SUFFIX,api.maclookup.com:80
-DOMAIN-SUFFIX,api.maclookup.com:443
-
-# IP-CIDR: 6
-# TOTAL: 6
-IP-CIDR,34.117.0.0/20
-IP-CIDR,34.117.176.0/20
-IP-CIDR,34.117.192.0/20
-IP-CIDR,185.34.107.0/24
-IP-CIDR,52.224.0.0/12
-IP-CIDR,52.96.0.0/14
-
-
-
-IP-CIDR,185.34.107.0/24
+# IP-CIDR: 10
+# TOTAL: 10
 IP-CIDR,185.34.104.0/22
+IP-CIDR,185.34.107.0/24
+IP-CIDR,185.34.108.0/24
+IP-CIDR,185.34.109.0/24
 IP-CIDR,24.105.62.129/32
-IP-CIDR,104.160.131.0/24
 IP-CIDR,137.221.105.0/24
+IP-CIDR,137.221.106.0/24
+IP-CIDR,137.221.7.0/24
+IP-CIDR,137.221.8.0/24
+IP-CIDR,162.133.232.0/21

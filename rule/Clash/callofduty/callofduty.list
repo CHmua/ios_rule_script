@@ -1,9 +1,9 @@
 # NAME: Call of Duty
 # AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# REPO: https://github.com/CHmua/ios_rule_script
 # UPDATED: 2025-07-23 13:39:08
-# DOMAIN-SUFFIX: 16
-# TOTAL: 16
+# DOMAIN-SUFFIX: 19
+# TOTAL: 19
 DOMAIN-SUFFIX,callofduty.com
 DOMAIN-SUFFIX,codm.activision.com
 DOMAIN-SUFFIX,callofdutyleague.com

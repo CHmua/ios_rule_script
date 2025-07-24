@@ -23,6 +23,9 @@ DOMAIN-SUFFIX,support.activision.com
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,api.maclookup.app:443
+DOMAIN-SUFFIX,api.maclookup.com:80
+DOMAIN-SUFFIX,api.maclookup.com:443
 # IP-CIDR: 6
 # TOTAL: 6
 IP-CIDR,34.117.0.0/20,no-resolve

@@ -31,9 +31,3 @@ IP-CIDR,34.117.192.0/20,no-resolve
 IP-CIDR,185.34.107.0/24,no-resolve
 IP-CIDR,52.224.0.0/12,no-resolve
 IP-CIDR,52.96.0.0/14,no-resolve
-IP-CIDR,185.34.104.0/22,no-resolve
-IP-CIDR,185.60.112.0/20,no-resolve
-IP-CIDR,137.221.0.0/16,no-resolve
-IP-CIDR,24.105.0.0/16,no-resolve
-IP-CIDR,103.4.114.0/24,no-resolve
-IP-CIDR,13.104.0.0/14,no-resolve

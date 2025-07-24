@@ -20,6 +20,14 @@ DOMAIN-SUFFIX,activision.com
 DOMAIN-SUFFIX,activity.windows.com
 DOMAIN-SUFFIX,genesis.stun.us.demonware.net
 DOMAIN-SUFFIX,support.activision.com
+# IP-CIDR: 6
+# TOTAL: 6
+IP-CIDR,34.117.0.0/20,no-resolve
+IP-CIDR,34.117.176.0/20,no-resolve
+IP-CIDR,34.117.192.0/20,no-resolve
+IP-CIDR,185.34.107.0/24,no-resolve
+IP-CIDR,52.224.0.0/12,no-resolve
+IP-CIDR,52.96.0.0/14,no-resolve
 
 
 

@@ -1,36 +1,14 @@
-# NAME: Call of Duty
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/CHmua/ios_rule_script
-# UPDATED: 2025-07-23 13:39:08
-# DOMAIN-SUFFIX: 19
-# TOTAL: 19
-DOMAIN-SUFFIX,callofduty.com
-DOMAIN-SUFFIX,codm.activision.com
-DOMAIN-SUFFIX,callofdutyleague.com
-DOMAIN-SUFFIX,servers.callofduty.com
-DOMAIN-SUFFIX,prod.versus.activision.com
-DOMAIN-SUFFIX,live.codmw.com
-DOMAIN-SUFFIX,game.codwz.com
-DOMAIN-SUFFIX,na.servers.callofduty.com
-DOMAIN-SUFFIX,eu.prod.codwz.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,edgesuite.net
-DOMAIN-SUFFIX,ingest.datax.activision.com
-DOMAIN-SUFFIX,activision.com
-DOMAIN-SUFFIX,activity.windows.com
-DOMAIN-SUFFIX,genesis.stun.us.demonware.net
-DOMAIN-SUFFIX,support.activision.com
-DOMAIN-SUFFIX,blizzard.com
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,akamaized.net
-# IP-CIDR: 6
-# TOTAL: 6
-IP-CIDR,34.117.0.0/20,no-resolve
-IP-CIDR,34.117.176.0/20,no-resolve
-IP-CIDR,34.117.192.0/20,no-resolve
-IP-CIDR,185.34.107.0/24,no-resolve
-IP-CIDR,52.224.0.0/12,no-resolve
-IP-CIDR,52.96.0.0/14,no-resolve
+DOMAIN-SUFFIX,callofduty.com,🎮Game
+DOMAIN-SUFFIX,blizzard.com,🎮Game
+DOMAIN-SUFFIX,battle.net,🎮Game
+DOMAIN-SUFFIX,activision.com,🎮Game
+DOMAIN-SUFFIX,akamaized.net,🎮Game
+IP-CIDR,185.34.104.0/22,🎮Game,no-resolve
+IP-CIDR,185.60.112.0/20,🎮Game,no-resolve
+IP-CIDR,137.221.0.0/16,🎮Game,no-resolve
+IP-CIDR,24.105.0.0/16,🎮Game,no-resolve
+IP-CIDR,103.4.114.0/24,🎮Game,no-resolve
+IP-CIDR,13.104.0.0/14,🎮Game,no-resolve
 
 
 

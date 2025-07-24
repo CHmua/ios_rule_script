@@ -20,6 +20,9 @@ DOMAIN-SUFFIX,activision.com
 DOMAIN-SUFFIX,activity.windows.com
 DOMAIN-SUFFIX,genesis.stun.us.demonware.net
 DOMAIN-SUFFIX,support.activision.com
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,akamaized.net
 # IP-CIDR: 6
 # TOTAL: 6
 IP-CIDR,34.117.0.0/20,no-resolve

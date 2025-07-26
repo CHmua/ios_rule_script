@@ -4,17 +4,49 @@
 # UPDATED: 2025-07-23 13:39:08
 # DOMAIN-SUFFIX: 11
 # TOTAL: 11
-DOMAIN-SUFFIX,callofduty.com
-DOMAIN-SUFFIX,codm.activision.com
-DOMAIN-SUFFIX,callofdutyleague.com
-DOMAIN-SUFFIX,servers.callofduty.com
-DOMAIN-SUFFIX,prod.versus.activision.com
-DOMAIN-SUFFIX,live.codmw.com
-DOMAIN-SUFFIX,game.codwz.com
-DOMAIN-SUFFIX,na.servers.callofduty.com
-DOMAIN-SUFFIX,eu.prod.codwz.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,edgesuite.net
+rules:
+  # 🎮 Call of Duty / Activision
+  - DOMAIN-SUFFIX,codm.activision.com,DIRECT
+  - DOMAIN-SUFFIX,callofduty.com,DIRECT
+  - DOMAIN-SUFFIX,callofdutyleague.com,DIRECT
+  - DOMAIN-SUFFIX,cdn.callofduty.com,DIRECT
+  - DOMAIN-SUFFIX,telemetry.callofduty.com,DIRECT
+  - DOMAIN-SUFFIX,live-activity.callofduty.com,DIRECT
+  - DOMAIN-SUFFIX,prod.telemetry.callofduty.com,DIRECT
+  - DOMAIN-SUFFIX,activision.com,DIRECT
+
+  # 🌐 CDN 相关
+  - DOMAIN-SUFFIX,akamaized.net,DIRECT
+  - DOMAIN-SUFFIX,edgesuite.net,DIRECT
+  - DOMAIN-SUFFIX,edgekey.net,DIRECT
+  - DOMAIN-SUFFIX,akamaitechnologies.com,DIRECT
+  - DOMAIN-SUFFIX,cdn.jsdelivr.net,DIRECT
+
+  # ❄️ Blizzard / Battle.net
+  - DOMAIN-SUFFIX,blizzard.com,DIRECT
+  - DOMAIN-SUFFIX,battle.net,DIRECT
+  - DOMAIN-SUFFIX,cdn.blizzard.com,DIRECT
+  - DOMAIN-SUFFIX,blzstatic.cn,DIRECT
+  - DOMAIN-SUFFIX,blzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,blizzard.cn,DIRECT
+  - DOMAIN-SUFFIX,playoverwatch.com,DIRECT
+  - DOMAIN-SUFFIX,overwatchleague.com,DIRECT
+
+  # 🔍 关键词匹配（泛用规则）
+  - DOMAIN-KEYWORD,blz,DIRECT
+  - DOMAIN-KEYWORD,callofduty,DIRECT
+  - DOMAIN-KEYWORD,activision,DIRECT
+  - DOMAIN-KEYWORD,battle,DIRECT
+
+  # 🖥️ 进程绑定（Clash Premium / OpenClash 专属）
+  - PROCESS-NAME,Cod.exe,DIRECT
+  - PROCESS-NAME,COD21.exe,DIRECT
+  - PROCESS-NAME,Battle.net.exe,DIRECT
+
+  # 📡 默认走代理
+  - FINAL,Proxy
+
+
 
 
 

@@ -1,53 +1,46 @@
-# NAME: Call of Duty
+# NAME: Call of Duty
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-07-23 13:39:08
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
+
 rules:
   # 🎮 Call of Duty / Activision
-  - DOMAIN-SUFFIX,codm.activision.com,DIRECT
-  - DOMAIN-SUFFIX,callofduty.com,DIRECT
-  - DOMAIN-SUFFIX,callofdutyleague.com,DIRECT
-  - DOMAIN-SUFFIX,cdn.callofduty.com,DIRECT
-  - DOMAIN-SUFFIX,telemetry.callofduty.com,DIRECT
-  - DOMAIN-SUFFIX,live-activity.callofduty.com,DIRECT
-  - DOMAIN-SUFFIX,prod.telemetry.callofduty.com,DIRECT
-  - DOMAIN-SUFFIX,activision.com,DIRECT
+  - DOMAIN-SUFFIX,codm.activision.com
+  - DOMAIN-SUFFIX,callofduty.com
+  - DOMAIN-SUFFIX,callofdutyleague.com
+  - DOMAIN-SUFFIX,cdn.callofduty.com
+  - DOMAIN-SUFFIX,telemetry.callofduty.com
+  - DOMAIN-SUFFIX,live-activity.callofduty.com
+  - DOMAIN-SUFFIX,prod.telemetry.callofduty.com
+  - DOMAIN-SUFFIX,activision.com
 
   # 🌐 CDN 相关
-  - DOMAIN-SUFFIX,akamaized.net,DIRECT
-  - DOMAIN-SUFFIX,edgesuite.net,DIRECT
-  - DOMAIN-SUFFIX,edgekey.net,DIRECT
-  - DOMAIN-SUFFIX,akamaitechnologies.com,DIRECT
-  - DOMAIN-SUFFIX,cdn.jsdelivr.net,DIRECT
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,edgekey.net
+  - DOMAIN-SUFFIX,akamaitechnologies.com
+  - DOMAIN-SUFFIX,cdn.jsdelivr.net
 
   # ❄️ Blizzard / Battle.net
-  - DOMAIN-SUFFIX,blizzard.com,DIRECT
-  - DOMAIN-SUFFIX,battle.net,DIRECT
-  - DOMAIN-SUFFIX,cdn.blizzard.com,DIRECT
-  - DOMAIN-SUFFIX,blzstatic.cn,DIRECT
-  - DOMAIN-SUFFIX,blzstatic.com,DIRECT
-  - DOMAIN-SUFFIX,blizzard.cn,DIRECT
-  - DOMAIN-SUFFIX,playoverwatch.com,DIRECT
-  - DOMAIN-SUFFIX,overwatchleague.com,DIRECT
+  - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,cdn.blizzard.com
+  - DOMAIN-SUFFIX,blzstatic.cn
+  - DOMAIN-SUFFIX,blzstatic.com
+  - DOMAIN-SUFFIX,blizzard.cn
+  - DOMAIN-SUFFIX,playoverwatch.com
+  - DOMAIN-SUFFIX,overwatchleague.com
 
   # 🔍 关键词匹配（泛用规则）
-  - DOMAIN-KEYWORD,blz,DIRECT
-  - DOMAIN-KEYWORD,callofduty,DIRECT
-  - DOMAIN-KEYWORD,activision,DIRECT
-  - DOMAIN-KEYWORD,battle,DIRECT
+  - DOMAIN-KEYWORD,blz
+  - DOMAIN-KEYWORD,callofduty
+  - DOMAIN-KEYWORD,activision
+  - DOMAIN-KEYWORD,battle
 
   # 🖥️ 进程绑定（Clash Premium / OpenClash 专属）
-  - PROCESS-NAME,Cod.exe,DIRECT
-  - PROCESS-NAME,COD21.exe,DIRECT
-  - PROCESS-NAME,Battle.net.exe,DIRECT
+  - PROCESS-NAME,Cod.exe
+  - PROCESS-NAME,COD21.exe
+  - PROCESS-NAME,Battle.net.exe
 
   # 📡 默认走代理
   - FINAL,Proxy
-
-
-
-
-
-

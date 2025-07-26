@@ -2,51 +2,41 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-07-23 13:39:08
-# NAME: Call of Duty
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-07-23 13:39:08
-# NAME: Call of Duty
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-07-23 13:39:08
-  # 🎮 Call of Duty / Activision
-  - DOMAIN-SUFFIX,codm.activision.com
-  - DOMAIN-SUFFIX,callofduty.com
-  - DOMAIN-SUFFIX,callofdutyleague.com
-  - DOMAIN-SUFFIX,cdn.callofduty.com
-  - DOMAIN-SUFFIX,telemetry.callofduty.com
-  - DOMAIN-SUFFIX,live-activity.callofduty.com
-  - DOMAIN-SUFFIX,prod.telemetry.callofduty.com
-  - DOMAIN-SUFFIX,activision.com
+# DOMAIN-SUFFIX: 28
+# TOTAL: 28
 
-  # 🌐 CDN 相关
-  - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,edgesuite.net
-  - DOMAIN-SUFFIX,edgekey.net
-  - DOMAIN-SUFFIX,akamaitechnologies.com
-  - DOMAIN-SUFFIX,cdn.jsdelivr.net
+DOMAIN-SUFFIX,codm.activision.com
+DOMAIN-SUFFIX,callofduty.com
+DOMAIN-SUFFIX,callofdutyleague.com
+DOMAIN-SUFFIX,cdn.callofduty.com
+DOMAIN-SUFFIX,telemetry.callofduty.com
+DOMAIN-SUFFIX,live-activity.callofduty.com
+DOMAIN-SUFFIX,prod.telemetry.callofduty.com
+DOMAIN-SUFFIX,activision.com
 
-  # ❄️ Blizzard / Battle.net
-  - DOMAIN-SUFFIX,blizzard.com
-  - DOMAIN-SUFFIX,battle.net
-  - DOMAIN-SUFFIX,cdn.blizzard.com
-  - DOMAIN-SUFFIX,blzstatic.cn
-  - DOMAIN-SUFFIX,blzstatic.com
-  - DOMAIN-SUFFIX,blizzard.cn
-  - DOMAIN-SUFFIX,playoverwatch.com
-  - DOMAIN-SUFFIX,overwatchleague.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,edgesuite.net
+DOMAIN-SUFFIX,edgekey.net
+DOMAIN-SUFFIX,akamaitechnologies.com
+DOMAIN-SUFFIX,cdn.jsdelivr.net
 
-  # 🔍 关键词匹配（泛用规则）
-  - DOMAIN-KEYWORD,blz
-  - DOMAIN-KEYWORD,callofduty
-  - DOMAIN-KEYWORD,activision
-  - DOMAIN-KEYWORD,battle
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,cdn.blizzard.com
+DOMAIN-SUFFIX,blzstatic.cn
+DOMAIN-SUFFIX,blzstatic.com
+DOMAIN-SUFFIX,blizzard.cn
+DOMAIN-SUFFIX,playoverwatch.com
+DOMAIN-SUFFIX,overwatchleague.com
 
-  # 🖥️ 进程绑定（Clash Premium / OpenClash 专属）
-  - PROCESS-NAME,Cod.exe
-  - PROCESS-NAME,COD21.exe
-  - PROCESS-NAME,Battle.net.exe
+DOMAIN-KEYWORD,blz
+DOMAIN-KEYWORD,callofduty
+DOMAIN-KEYWORD,activision
+DOMAIN-KEYWORD,battle
+
+PROCESS-NAME,Cod.exe
+PROCESS-NAME,COD21.exe
+PROCESS-NAME,Battle.net.exe
 
 
 

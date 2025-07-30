@@ -41,6 +41,10 @@ PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,uTorrent
 PROCESS-NAME,uTorrent.exe
 
+PROCESS-NAME,IDMan
+PROCESS-NAME,IDMan.exe
+
+
 # Mac Download
 PROCESS-NAME,aria2c.exe
 PROCESS-NAME,fdm.exe
